@@ -8,7 +8,7 @@ const app = express();
 
 // Enable CORS for frontend
 app.use(cors({
-    origin: ["http://localhost:5173", "http://localhost:3000", "https://resume-analyser-ruddy-five.vercel.app/"], // Allow Vite & React default ports
+    origin: ["http://localhost:5173", "http://localhost:3000", "https://resume-analyser-ruddy-five.vercel.app"], // Allow Vite & React default ports
     methods: ["GET", "POST"],
     credentials: true
 }));
